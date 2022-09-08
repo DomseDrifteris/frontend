@@ -1,1 +1,122 @@
+header, footer {
+    background-color: pink;
+}
+.galva {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header img {
+    height: 50px;
+    margin: 10px;
+}
+header a {
+    text-decoration: none;
+    padding: 20px;
+    color: azure;
+}
+header ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 20px;
+}
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    align-items: center;
+}
+.collum {
+    margin-bottom: 30px;
+    flex-direction: column;
+    font-size: 15px;
+}
+.collum p {
+    font-weight: lighter;
 
+}
+main, .foot{
+    background-color: rgb(232, 224, 230);
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.collum img {
+    float: right;
+    height: 220px;  
+}
+.collum h1 {
+    margin-top: 0;
+    padding-top: 20px;
+    margin-bottom: 60px;
+    font-size: 24px;
+}
+.box ul {
+    list-style: none;
+    padding-left: 20px;
+}
+.box a {
+    color: inherit;
+    text-decoration: none;
+} 
+.fleks {
+    display: flex;
+    justify-content: space-between;
+}
+.box li {
+    margin-top: 5px;
+    border: 1px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin-right: 16px;
+    padding: 3px 3px 3px 0;
+    
+}
+.tarpelis {
+    padding-top: 7px;
+}
+.box{
+    outline-style: solid;
+    outline-color: rgb(177, 177, 177);
+    outline-width: 1px;
+    width: 430px;
+    border-radius: 20px;
+    margin-bottom: 45px;
+}
+.border {
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(195, 241, 241);
+}
+.border h2 {
+    padding: 50px 0 40px 0;
+    margin-top: 0%;
+}
+.foot h2 {
+    margin-top: 0;
+    padding-top: 50px;
+}
+.foot ul {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    justify-content: space-between;
+    padding-left: 0;
+    padding-bottom: 30px;
+}
+.foot img {
+    height: 120px;
+    border: 1px solid;
+    border-radius: 100%;
+    border-color: black;
+    box-shadow: 100px;
+}
+.pedos {
+    text-align: center;
+    margin: 0%;
+    padding: 10px 0 10px 0;
+}
